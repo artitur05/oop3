@@ -4,7 +4,7 @@ namespace blog\controllers;
 
 use blog\models\Post;
 
-class PostsController extends FuncController
+class PostsController extends Controller
 {
     public function actionIndex() {
         $posts = (new Post())->getAll();

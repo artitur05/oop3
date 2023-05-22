@@ -1,7 +1,7 @@
 <?php
 namespace blog\controllers;
 
-class IndexController extends FuncController
+class IndexController extends Controller
 {
 
 
